@@ -50,7 +50,7 @@ In this section I prepared a postman folder to view the requests. Only the url a
     * Endpoint: "/api/actors"
     * Method: POST
     * Body:
-    ```json
+    ```js
         {
             "name": String,
             "lastName": String,
@@ -62,7 +62,7 @@ In this section I prepared a postman folder to view the requests. Only the url a
     * Endpoint: "/api/actors/:id"
     * Method: PUT
     * Body: 
-    ```json
+    ```js
         {
             "name": String,
             "lastName": String,
@@ -78,7 +78,7 @@ In this section I prepared a postman folder to view the requests. Only the url a
     * Endpoint: "/api/actors/:page/:limit"
     * Method: GET
     * Querie params:
-    ```json
+    ```js
         {
             "name": String,
             "lastName": String,
@@ -99,7 +99,7 @@ In this section I prepared a postman folder to view the requests. Only the url a
     * Endpoint: "/api/directors"
     * Method: POST
     * Body: 
-    ```json
+    ```js
         {
             "name": String,
             "lastName": String,
@@ -111,7 +111,7 @@ In this section I prepared a postman folder to view the requests. Only the url a
     * Endpoint: "/api/directors/:id"
     * Method: PUT
     * Body:
-    ```json
+    ```js
         {
             "name": String,
             "lastName": String,
@@ -126,7 +126,7 @@ In this section I prepared a postman folder to view the requests. Only the url a
     * Endpoint: "/api/directors/:page/:limit"
     * Method: GET
     * Query params:
-    ```json
+    ```js
         {
             "name": String,
             "lastName": String,
@@ -147,7 +147,7 @@ In this section I prepared a postman folder to view the requests. Only the url a
     * Endpoint: "/api/movies"
     * Method: POST
     * Body: 
-    ```json
+    ```js
         {
             "title": String,
             "releaseYear": Number,
@@ -165,7 +165,7 @@ In this section I prepared a postman folder to view the requests. Only the url a
     * Endpoint: "/api/movies/:id"
     * Method: PUT
     * Body: 
-    ```json
+    ```js
         {
             "title": String,
             "releaseYear": Number,
@@ -186,7 +186,7 @@ In this section I prepared a postman folder to view the requests. Only the url a
     * Endpoint: "/api/movies/:page/:limit"
     * Method: GET
     * Query Params:
-    ```json
+    ```js
         {
             "title": String,
             "description": String,
@@ -203,7 +203,7 @@ In this section I prepared a postman folder to view the requests. Only the url a
     * Endpoint: "/api/series"
     * Method: POST
     * Body: 
-    ```json
+    ```js
         {
             "title": String,
             "releaseYear": Number,
@@ -232,7 +232,7 @@ In this section I prepared a postman folder to view the requests. Only the url a
     * Endpoint: "/api/series/:id"
     * Method: PUT
     * Body:
-    ```json
+    ```js
         {
             "title": String,
             "releaseYear": Number,
@@ -264,7 +264,7 @@ In this section I prepared a postman folder to view the requests. Only the url a
     * Endpoint: "/api/series/:page/:limit"
     * Method: GET
     * Query Params:
-    ```json
+    ```js
         {
             "title": String,
             "description": String,
